@@ -1,0 +1,1 @@
+mongoexport --db aopxplorer-dev -v --host localhost:27017 --collection toxcast_l5_data --out toxcast_from_mongo.json

@@ -1,0 +1,2 @@
+mysql -u burgoonl -p toxcast < getting_toxcast_data_out.sql > toxcast_data.txt
+mongoimport -v --host localhost:27017 --db aopxplorer-dev --collection toxcast_l5_data --ignoreBlanks --type tsv --file toxcast_data.txt --headerline --stopOnError --drop
