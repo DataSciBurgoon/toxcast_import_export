@@ -1,0 +1,1 @@
+mysql -u burgoonl -p toxcast < chems_and_concentrations.sql > toxcast_chems_and_concentrations_data.txt
